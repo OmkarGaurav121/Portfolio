@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omkar Gaurav | Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Omkar Gaurav</h1>
+      <p>Data Analyst | Excel • SQL • Python • Power BI • Statistics</p>
+    </div>
+  </header>
+
+  <section class="about section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a passionate data analyst with strong skills in Excel, SQL, Python, Power BI, and Statistics. Currently pursuing B.Tech from Haldia Institute of Technology (2022–2026), I enjoy working on real-world data problems and building impactful dashboards and projects.</p>
+    </div>
+  </section>
+
+  <section class="skills section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>Excel</li>
+        <li>SQL</li>
+        <li>Python</li>
+        <li>Power BI</li>
+        <li>Statistics</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Bank Loan Analysis Dashboard</h3>
+        <p><strong>Tools:</strong> Excel</p>
+        <p>Created three dashboards (Summary, Overview, Details) to analyze loan performance with KPIs, charts, and slicers.</p>
+      </div>
+
+      <div class="project">
+        <h3>Ola Job Market Analytics</h3>
+        <p><strong>Tools:</strong> Excel, Python, SQL, Power BI</p>
+        <p>Advanced analytics project for job trend visualization and insights, using data from Ola's job market data.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> omkargaurav121@gmail.com</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/omkar-gaurav-1508b6303" target="_blank">omkar-gaurav</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/OmkarGaurav121" target="_blank">OmkarGaurav121</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Omkar Gaurav. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
