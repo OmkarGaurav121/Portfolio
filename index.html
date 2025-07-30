@@ -1,173 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Omkar Gaurav | Data Analyst</title>
+  <title>Omkar Gaurav | Data Analyst Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-    body {
-      background-color: #f5f5f5; /* Light gray background like Kaushal's */
-      color: #333;
-      line-height: 1.6;
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      background-color: #ffffff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    nav h1 {
-      font-size: 1.5rem;
-      color: #333;
-    }
-    nav ul {
-      display: flex;
-      gap: 1.5rem;
-      list-style: none;
-    }
-    nav a {
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-    }
-    .hero {
-      background-color: #e9ecef;
-      text-align: center;
-      padding: 4rem 2rem;
-    }
-    .hero h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.2rem;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 1.5rem;
-      padding: 0.75rem 1.5rem;
-      background-color: #007bff;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background 0.3s;
-    }
-    .btn:hover {
-      background-color: #0056b3;
-    }
-    .section {
-      padding: 4rem 2rem;
-    }
-    .skills-grid, .projects-grid {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-    .skills-grid span {
-      background-color: #ffffff;
-      padding: 0.75rem;
-      text-align: center;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    }
-    .card {
-      background-color: #ffffff;
-      padding: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background-color: #f1f1f1;
-      font-size: 0.9rem;
-    }
-  </style>
 </head>
+
 <body>
-  <header class="hero">
-    <nav>
+  <header>
+    <div class="container">
       <h1>Omkar Gaurav</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <section class="hero-content">
-      <h2>Data Analyst | Python | SQL | Power BI</h2>
-      <p>Turning raw data into actionable insights</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </section>
+      <p>Data Analyst | Excel • SQL • Python • Power BI • Statistics</p>
+    </div>
   </header>
 
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>I’m a final-year student at Haldia Institute of Technology with a strong passion for data analysis and business intelligence. I specialize in Python, SQL, Excel, and Power BI. I love solving real-world problems through dashboards and analytics. I’m also a consistent learner with hands-on experience in end-to-end data projects.</p>
-  </section>
-
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span>Excel</span>
-      <span>SQL</span>
-      <span>Python</span>
-      <span>Power BI</span>
-      <span>Statistics</span>
+  <section class="about section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a passionate data analyst with strong skills in Excel, SQL, Python, Power BI, and Statistics. Currently pursuing B.Tech from Haldia Institute of Technology (2022–2026), I enjoy working on real-world data problems and building impactful dashboards and projects.</p>
     </div>
   </section>
 
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="card">
+  <section class="skills section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>Excel</li>
+        <li>SQL</li>
+        <li>Python</li>
+        <li>Power BI</li>
+        <li>Statistics</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="project">
         <h3>Bank Loan Analysis Dashboard</h3>
-        <p>Excel dashboard for loan status, interest rates, and payment terms with KPIs and slicers.</p>
-        <p><strong>Tools:</strong> Excel, Pivot Tables</p>
+        <p><strong>Tools:</strong> Excel</p>
+        <p>Created three dashboards (Summary, Overview, Details) to analyze loan performance with KPIs, charts, and slicers.</p>
       </div>
-      <div class="card">
+
+      <div class="project">
         <h3>Ola Job Market Analytics</h3>
-        <p>End-to-end job market analysis with skill and location filters.</p>
-        <p><strong>Tools:</strong> Python, SQL, Excel, Power BI</p>
+        <p><strong>Tools:</strong> Excel, Python, SQL, Power BI</p>
+        <p>Advanced analytics project for job trend visualization and insights, using data from Ola's job market data.</p>
       </div>
-      <div class="card">
+
+      <div class="project">
         <h3>Sales Analysis Dashboard</h3>
-        <p>Interactive sales dashboard with region-wise and product-wise breakdowns.</p>
         <p><strong>Tools:</strong> Power BI, Excel</p>
+        <p>Built an interactive dashboard to monitor regional sales, product performance, and profit trends.</p>
       </div>
+
+      <div class="project">
+        <h3>Netflix Data Analysis</h3>
+        <p><strong>Tools:</strong> Excel Power Query, Power BI</p>
+        <p>Cleaned Netflix dataset using Excel, performed detailed content analysis by genre, country, and release year with Power BI visuals.</p>
+      </div>
+
     </div>
   </section>
 
-  <section id="education" class="section">
-    <h2>Education</h2>
-    <p><strong>Haldia Institute of Technology</strong><br />
-    B.Tech in Electronics and Communication Engineering<br />
-    Duration: 2022–2026</p>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:omkargaurav121@gmail.com">omkargaurav121@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/omkar-gaurav-1508b6303" target="_blank">omkar-gaurav-1508b6303</a></p>
-    <p>GitHub: <a href="https://github.com/OmkarGaurav121" target="_blank">OmkarGaurav121</a></p>
+  <section class="contact section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> omkargaurav121@gmail.com</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/omkar-gaurav-1508b6303" target="_blank">omkar-gaurav</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/OmkarGaurav121" target="_blank">OmkarGaurav121</a></p>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Omkar Gaurav. All rights reserved.</p>
+    <div class="container">
+      <p>© 2025 Omkar Gaurav. All rights reserved.</p>
+    </div>
   </footer>
 </body>
+
 </html>
